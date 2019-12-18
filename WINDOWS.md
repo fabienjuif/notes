@@ -8,6 +8,7 @@
   * shell config: `shell: 'C:\\Windows\\System32\\wsl.exe'`
   * fontFamily config: `fontFamily: 'Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',`
   * theme: [hyper-material-theme](https://hyper.is/plugins/hyper-material-theme)
+  * note that I fall into this issue right now: https://github.com/zeit/hyper/issues/3664#issuecomment-567075446
 
 ## VSCode
 - Installed from windows
