@@ -4,11 +4,12 @@
 
 ## Terminal
 - [WSL](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)
-- [Hyper](https://hyper.is)
+- [Hyper](https://hyper.is) - take a canary version not to fall in the issue below
   * shell config: `shell: 'C:\\Windows\\System32\\wsl.exe'`
   * fontFamily config: `fontFamily: 'Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',`
   * theme: [hyper-material-theme](https://hyper.is/plugins/hyper-material-theme)
   * note that I fall into this issue right now: https://github.com/zeit/hyper/issues/3664#issuecomment-567075446
+  * **canary version works** : https://github.com/zeit/hyper/issues/3664#issuecomment-567082287
 
 ## VSCode
 - Installed from windows
