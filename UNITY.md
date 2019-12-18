@@ -1,4 +1,4 @@
-# awesome-unity
+# unity
 > Just some awesome unity resources I found and I don't want to forget about
 
 ## 2D
