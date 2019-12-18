@@ -5,7 +5,8 @@
 ## Terminal
 - [WSL](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)
 - [Hyper](https://hyper.is)
-  * config: `shell: 'C:\\Windows\\System32\\wsl.exe'`
+  * shell config: `shell: 'C:\\Windows\\System32\\wsl.exe'`
+  * fontFamily config: `fontFamily: 'Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',`
   * theme: [hyper-material-theme](https://hyper.is/plugins/hyper-material-theme)
 
 ## VSCode
