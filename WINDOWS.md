@@ -1,4 +1,7 @@
 # Windows
+## Utils
+- [shell_menu_view](https://www.nirsoft.net/utils/shell_menu_view.html) remove items from the right click context
+
 ## Fonts
 - https://www.nerdfonts.com -> hack
 
