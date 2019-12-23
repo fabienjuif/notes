@@ -28,3 +28,6 @@
     "workbench.iconTheme": "vscode-great-icons"
 }
 ```
+
+## Drivers
+For the HUION 610PRO I use these drivers [H610PRO(2048)](https://www.huion.com/index.php?m=content&c=index&a=lists&catid=16&down_title2=H610PRO).
