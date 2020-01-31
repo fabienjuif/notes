@@ -3,6 +3,12 @@
 - [shell_menu_view](https://www.nirsoft.net/utils/shell_menu_view.html) remove items from the right click context
 - [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) I can boost my microphone with this
 
+## WSL2
+- [Tutorial on how to install WSL2 with docker](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker)
+- [Tutorial on how to use Cypress (or other X window) with WSL2](https://nickymeuleman.netlify.com/blog/gui-on-wsl2-cypress/)
+- This alias is useful to now WSL2 IP address (which is dynamic atm): 
+  * `alias copip='hostname -I | awk "{print \$1}" | awk "{print \$0}" | clip.exe'`
+
 ## Fonts
 - https://www.nerdfonts.com -> hack
 
