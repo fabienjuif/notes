@@ -21,12 +21,18 @@
 - Plugins
   * [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
   * [Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
+  * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+  * [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme)
+  * [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 - **settings.json**
 ```js
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
     "git.autofetch": true,
-    "workbench.iconTheme": "vscode-great-icons"
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Palenight Theme",
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "window.zoomLevel": 1
 }
 ```
 
