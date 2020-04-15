@@ -10,6 +10,7 @@ You have to install these apps and follow screenshots for configuration
 - [Cantabile lite](https://www.cantabilesoftware.com/free-vst-host) Mixer with some good plugins
 - [ASIO4ALL](http://www.asio4all.org/) Audio drivers
 - [Virtual cable](https://www.vb-audio.com/Cable/) Audio virtual cables to plug the real microphone to a fake one
+- [Plugins VST](https://www.reaper.fm/reaplugs/)
 <p align="center">
 <img width=300 src="https://user-images.githubusercontent.com/17828231/79277400-04e6dc00-7eaa-11ea-9515-0bfa33e0fbd4.png" />
 <img width=300 src="https://user-images.githubusercontent.com/17828231/79277447-21831400-7eaa-11ea-9de2-e7e214386cf9.png" />
