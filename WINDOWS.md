@@ -6,34 +6,11 @@
 ## Microphone
 This section show how to have a clear microphone in all your app (discord/hangout/games/etc)
 
-You have to install these apps and follow screenshots for configuration
-- [Cantabile lite](https://www.cantabilesoftware.com/free-vst-host) Mixer with some good plugins
-- [ASIO4ALL](http://www.asio4all.org/) Audio drivers
-- [Virtual cable](https://www.vb-audio.com/Cable/) Audio virtual cables to plug the real microphone to a fake one
+You have to install these apps and follow this video tutorial for configuration: [video from  VancityGames ](https://www.youtube.com/watch?v=J3fBx2ftaBs)
+- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) Mixer with some good plugins
 - [Plugins VST](https://www.reaper.fm/reaplugs/)
-<p align="center">
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277400-04e6dc00-7eaa-11ea-9515-0bfa33e0fbd4.png" />
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277447-21831400-7eaa-11ea-9de2-e7e214386cf9.png" />
-</p>
 
-<p align="center">
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79331642-cb4eb900-7f1b-11ea-9b6e-3b0efe5f33f2.png" />
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277503-3bbcf200-7eaa-11ea-8f3e-124dad833d1a.png" />
-</p>
-
-<p align="center">
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277520-437c9680-7eaa-11ea-919c-4a6328390415.png" />
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277538-4b3c3b00-7eaa-11ea-88bf-52cc78b1590e.png" />
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277700-99e9d500-7eaa-11ea-87c1-957ff512467c.png" />
-</p>
-
-
-`control /name Microsoft.Sound`
-
-<p align="center">
-<img width=300 src="https://user-images.githubusercontent.com/17828231/79277737-ae2dd200-7eaa-11ea-8444-b23a54f55abb.png" />
-</p>
-
+My app configuration is in the repositiory and you can found yours in `C:\Program Files\EqualizerAPO\config\config.txt`
 
 ## WSL2
 - [Tutorial on how to install WSL2 with docker](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker)
