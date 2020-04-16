@@ -1,7 +1,7 @@
 # Windows
 ## Utils
 - [shell_menu_view](https://www.nirsoft.net/utils/shell_menu_view.html) remove items from the right click context
-- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) I can boost my microphone with this
+- [add administrator apps at startup](https://superuser.com/questions/929225/how-to-run-a-program-as-an-administrator-at-startup-on-windows-10)
 
 ## Microphone
 This section show how to have a clear microphone in all your app (discord/hangout/games/etc)
