@@ -1,4 +1,4 @@
 ## Hardware calibration
-- Analog HW Offsets: -4 60
-- Lower HW Deadzone: 6
-- Upper HW Deadzone: 405
+- Analog HW Offsets: 2 -2
+- Lower HW Deadzone: 117
+- Upper HW Deadzone: 200
