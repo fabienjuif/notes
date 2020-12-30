@@ -46,7 +46,7 @@ L'objectif est de jouer des parties où je ne donne plus de pièces en 1 coup.
 ### Jour 3
 Une méthode pour les tactiques est présentée :
 - On marque en vert les pièces faibles de l'adversaire
-- On marque en rouge les nos pièces fortes
+- On marque en rouge nos pièces fortes
 - On fait l'inventaire des coups possibles de nos pièces fortes (avec des flèches)
 - On utilise la méthode EPM pour itérérer sur ces coups possibles et choisir le meilleur
   * EPM: Echec Prise Menace, on regarde en priorité les coups qui font échec, puis les coups qui font une prise, puis les coups qui crééent une menace.
