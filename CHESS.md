@@ -41,7 +41,7 @@ Pour éviter cela, il faut mieux jouer sur des tempo plus lents et prendre le te
     - Je crée une brochette au prochain coup
     - Je créé un échec au prochain coup (_note à moi même_ **TRAVAILLER CELA**)
 
-L'objectif est de jouer des partie où je ne donne plus de pièce en 1 coup.
+L'objectif est de jouer des parties où je ne donne plus de pièces en 1 coup.
 
 ### Jour 3
 Une méthode pour les tactiques est présentée :
