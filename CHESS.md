@@ -8,7 +8,7 @@
 (In french sorry).
 
 Voici mes notes au jour le jour avec un professeur d'échec.
-**En gras** sont les règles simple à avoir en tête, des sortes de templates.
+**En gras** sont les règles simples à avoir en tête, des sortes de templates.
 
 ### Jour 1
 - On peut considérer être en finale lorsque, parmis d'autres cas, l'ouverture et quasi terminée et qu'il n'y a plus de dame
