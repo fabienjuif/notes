@@ -11,7 +11,7 @@ Voici mes notes au jour le jour avec un professeur d'échec.
 **En gras** sont les règles simples à avoir en tête, des sortes de templates.
 
 ### Jour 1
-- On peut considérer être en finale lorsque, parmis d'autres cas, l'ouverture et quasi terminée et qu'il n'y a plus de dame
+- On peut considérer être en phase finale lorsque, parmis d'autres cas, l'ouverture est quasi terminée et qu'il n'y a plus de dame
 - L'ouverture pour les débutant doit suivre ces principes
   * On contrôle le centre
   * On sort dans l'ordre, lorsque cela est possible
