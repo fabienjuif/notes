@@ -13,14 +13,31 @@ You have to install these apps and follow this video tutorial for configuration:
 My app configuration is in the repositiory and you can found yours in `C:\Program Files\EqualizerAPO\config\config.txt`
 
 ## WSL2
-- Enable WSL: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
-- Enable Virtual machine feature: `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
-- WSL 2 as default: `wsl --set-default-version 2`
-- Install needed features: `wsl --install`
-- _restart_
-- Install distribution: `wsl --install -d Ubuntu`
-
-- [Tutorial on how to install WSL2 with docker](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker)
+- Install it
+  - Enable WSL: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+  - Enable Virtual machine feature: `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+  - WSL 2 as default: `wsl --set-default-version 2`
+  - Install needed features: `wsl --install`
+  - Install https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+  - Install distribution: `wsl --install -d Ubuntu`
+  - Making sur the distribution is in wsl2: `wsl -l -v`
+- Update it
+  - `sudo apt update`
+  - `sudo apt upgrade`
+- Install docker ([source](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker))
+  - `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+  - `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+  - `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
+  - `sudo apt update`
+  - `sudo apt install docker-ce`
+  - `sudo service docker start`
+  - `sudo docker run hello-world`
+  - Adding your current user to docker group: `usermod -a -G docker $(whoami)`
+  - Restart your wsl: `wsl --shutdown` then `wsl`
+- Install docker-compose ([source](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker))
+  - `sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+  - `sudo chmod +x /usr/local/bin/docker-compose`
+  - `docker-compose --version`
 - [Tutorial on how to use Cypress (or other X window) with WSL2](https://nickymeuleman.netlify.com/blog/gui-on-wsl2-cypress/)
 - This alias is useful to now WSL2 IP address (which is dynamic atm): 
   * `alias copip='hostname -I | awk "{print \$1}" | awk "{print \$0}" | clip.exe'`
