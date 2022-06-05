@@ -13,6 +13,13 @@ You have to install these apps and follow this video tutorial for configuration:
 My app configuration is in the repositiory and you can found yours in `C:\Program Files\EqualizerAPO\config\config.txt`
 
 ## WSL2
+- Enable WSL: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+- Enable Virtual machine feature: `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+- WSL 2 as default: `wsl --set-default-version 2`
+- Install needed features: `wsl --install`
+- _restart_
+- Install distribution: `wsl --install -d Ubuntu`
+
 - [Tutorial on how to install WSL2 with docker](https://nickymeuleman.netlify.com/blog/linux-on-windows-wsl2-zsh-docker)
 - [Tutorial on how to use Cypress (or other X window) with WSL2](https://nickymeuleman.netlify.com/blog/gui-on-wsl2-cypress/)
 - This alias is useful to now WSL2 IP address (which is dynamic atm): 
